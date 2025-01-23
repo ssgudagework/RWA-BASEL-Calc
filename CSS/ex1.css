@@ -1,0 +1,78 @@
+
+.container1{
+    font-family: sans-serif;
+    background-color: #ddd;
+    font-size: 32px;
+    margin: 40px;
+    height: 100px;
+    display:flex;
+    /* Main axix;*/
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    
+    /*cross axix*/
+    align-items: stretch;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center;  */
+
+    /*flex-grow: 2; */
+    /* gap:80px; */
+}
+
+/* .container2{
+    font-family: sans-serif;
+    background-color: #ddd;
+    font-size: 32px;
+    margin: 40px;
+    
+    display:flex;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    /* Main axix;
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-evenly;*/
+    
+    /*cross axix
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    
+}*/
+
+.el--1{
+    background-color: blueviolet;
+}
+.el--2{
+    background-color: orangered;
+}
+.el--3{
+    background-color: green;
+}
+.el--4{
+    background-color: goldenrod;
+    height: 100px;
+}
+.el--5{
+    background-color: palevioletred;
+    /*align-self: center;*/
+}
+.el--6{
+    background-color: steelblue;
+}
+.el--7{
+    background-color: yellow;
+}
+.el--8{
+    background-color: crimson;
+}

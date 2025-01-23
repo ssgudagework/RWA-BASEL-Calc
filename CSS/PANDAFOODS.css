@@ -1,0 +1,359 @@
+/* code of this website by argit
+html - https://gist.github.com/arjitvermaco/a48ce42f3b31b0fe7baab1f8128d3a38
+css style - https://gist.github.com/arjitvermaco/8a87aa0328fe0def3caf87c1bc21ca1c
+css general - https://gist.github.com/arjitvermaco/a18d2816dbca16f6f84cf8b7f073da95
+ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /*default is 16px for font size
+10px/16px = .625 = 62.5%
+for special cases 15px*/
+
+    font-size: 62.4%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/**************************************/
+/*************Section-button********/
+/**************************************/
+.btn {
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #ffffff;
+    border-radius: 9px;
+}
+
+.btn--full {
+    background-color: #e67e22;
+}
+
+.btn--full:hover {
+    background-color: #cf711f;
+}
+
+.btn--outline {
+    background-color: white;
+    color: #555;
+}
+
+.btn--outline:hover {
+    background-color: #fdf2e9;
+}
+
+.margin-right-sm {
+    margin-right: 1.6rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80rem;
+}
+
+.header {
+    background-color: #fdf2e9;
+    display: flex;
+    gap: 550px;
+}
+
+.title {
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    gap: 38px;
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+}
+
+/**************************************/
+/*************Section-hero********/
+/**************************************/
+.section-hero {
+    background-color: #fdf2e9;
+    padding: 9.6rem;
+    position: relative;
+}
+
+.hero {
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.hero-text-box,
+.hero-img-box {
+    flex: 1;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.heading-primary {
+    color: #333;
+    line-height: 1.03;
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.heading-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+
+.delivered-people {
+    display: flex;
+    margin-top: 10rem;
+}
+
+.customer-img {
+    height: 2.8rem;
+    border-radius: 50%;
+    border: 2px solid #fdf2e9;
+    margin-right: -0.8rem;
+
+}
+
+.customer-para {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: 1.8rem;
+}
+
+/**************************************/
+/*************Section-herodown********/
+/**************************************/
+.section-featured {
+    padding: 4.8 rem 0;
+    ;
+}
+
+.featured-in-heading {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos img {
+    height: 2.4rem;
+    filter: brightness(0);
+    opacity: .5;
+}
+
+/**************************************/
+/*************Section-app-screen********/
+/**************************************/
+.section--app-screen {
+    margin: 4.8rem auto;
+}
+
+.heading1 {
+    font-size: small;
+    color: #e67e22;
+    margin: 1.2rem auto;
+}
+
+.heading2 {
+    font-weight: 1000;
+    font-size: x-large;
+    margin-bottom: 5.6rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3.8rem;
+}
+
+.numbers {
+    font-size: 4.4rem;
+    font-weight: 700;
+    opacity: .2;
+    margin-bottom: .4rem;
+}
+
+.heading-common {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.para1 {
+    font-size: 1.25rem;
+    line-height: 2.2rem;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img img{
+    width: 30%;
+}
+
+.img::after{
+    content: "";
+    background-color: #fae5d3;
+    width:35%;
+    padding-bottom: 35%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+}
+
+.img::before{
+    content: "";
+    background-color: #fdf2e9;
+    width:50%;
+    padding-bottom: 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+}
+
+.circle1 {
+    background-color: #FDF2E9;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+
+}
+
+
+.footer {
+    margin: 5.2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.focus {
+    color: #EE8A22;
+}
+
+.social-media {
+    margin-top: .8rem;
+}
+
+.space h3 {
+    margin-bottom: 1rem;
+}
+
+.contact h3 {
+    margin-bottom: 2.5rem;
+}
+
+.contact address {
+    margin-bottom: 2rem;
+}
+
+.space-line {
+    line-height: 2.4rem;
+}
+
+.smlogo {
+    margin: 2rem auto;
+    filter: grayscale(100%);
+    height: 1.4rem;
+}
+
+/**************************************/
+/*************Section-cta********/
+/**************************************/
+.cta{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: linear-gradient(to right,#eb984e,#e67e22);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2.4rem 4.8remrgba(0,0,0,0,156);
+
+}
+.cta-img-box{
+    background-image: linear-gradient(to right,rgba(235,151,78,0.35),rgba(230,125,34,0.35)), url(../image/eating.jpg);
+    background-size: cover;
+}
+.cta-text-box{
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+.cta .heading2{
+    margin-bottom: 3.2rem;
+    color: #45260a;
+
+}
+.cta-text{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 4.8;
+    color: #45260a;
+}
+
+.cta-form label{
+    display: block;
+    font: size 1.6rem;
+    font-weight: 500rem;
+    margin-bottom: 1.2rem;
+    color: #45260a;
+    font-family: inherit;
+}
+
+.cta-form input, .cta-form select{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: #45260a;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.cta-form *:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242,233,0.5);
+}
+.btn--form{
+    background-color: #45260a;
+    color: #fdf2e9;
+    padding: 1.2rem;
+    border: none;
+    font-family: inherit;
+    border-radius: 9px;
+    font-size: 2rem;
+    align-self: end;
+}
+.btn--form:hover{
+    color: #45260a;
+    background-color: #fdf2e9;
+}
